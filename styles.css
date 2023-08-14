@@ -1,0 +1,43 @@
+body {
+    background-color: #ea6ef3;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    /* overflow-x: scroll; */
+    white-space: nowrap;
+    padding: 20px;
+}
+
+.photo {
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+    border: 2px solid #555;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s;
+}
+
+.photo:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.4);
+}
+
+.heading {
+    color: rgb(40, 8, 48);
+    font-family: Caprasimo, sans-serif;
+    margin: 0;
+    padding: 0; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header {
+    background-color: #FFC0CB;
+    text-align: center;
+    padding: 1%;
+}
